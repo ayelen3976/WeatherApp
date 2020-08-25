@@ -1,0 +1,42 @@
+.card {
+    margin: 20px;
+    width: 18rem;
+    border-radius: 20px;
+    background-color:#9fa8da;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  
+  .card-title {
+    margin-bottom: 15px;
+    color: black;
+    font-size: 30px;
+  }
+  button{
+    background-color:#e0e0e0;
+    border-radius: 30px;
+  }
+  p{
+    font-family:  sans-serif;
+    font-size: 20px;
+  }
+  
+  #closeIcon {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8px;
+    margin-top: 8px;
+  }
+  
+  .card-body {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

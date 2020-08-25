@@ -1,0 +1,45 @@
+nav{
+    background-color:#3C3187;
+    margin: 15px;
+    padding-top: 6px;
+    height: 50px;
+}
+nav a{
+   color:  white;
+   font-size: 20px;
+   text-align: center;
+}
+.about{
+    color: white;
+    float: left;
+    font-size: 20px;
+    margin:10px;
+  }
+  form{
+    float: right;
+    margin-right: 20px;
+   
+  }
+  form input{
+    border-radius: 15px;
+  height: 40px;
+  }
+  .button{
+
+   border-width:3px;
+
+  }
+  @media screen and (max-width: 500px) {
+nav {
+   display:table;
+ }
+.about{
+    float: none;
+}
+form {
+    display: contents;
+}
+p{
+
+    text-align: initial;
+}}
